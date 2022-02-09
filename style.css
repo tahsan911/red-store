@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.nav-item{
+    font-width: bold;
+}
+.fa-shopping-cart{
+    font-size: 25px;
+    color: black;
+}
+.bg-header{
+    background-color: #FFDDE3;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+     color: grey;
+    font-weight: 500;
+}
+.feachure{
+    border-bottom: 5px solid orangered;
+    width: 25vw;
+}
+.bi-star-fill, .bi-star-half{
+    color: #ff5100;
+}
+.card{
+    transition: .3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.bi-quote{
+    font-size: 50px;
+    color: orangered;
+}
+.user-image{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.user-card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 15px 25px 30px floralwhite;
+}
