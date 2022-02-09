@@ -45,3 +45,6 @@ body{
     border-radius: 5px;
     box-shadow: 15px 25px 30px floralwhite;
 }
+.bg-footer{
+    background-color: #000000;
+}
